@@ -44,3 +44,127 @@ body {
 .sidebar__navigation .logo__spotify img {
     width: 80px;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    color: #B3B3B3;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 4px 8px;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    background-color: transparent;
+    border: 0px;
+    color: #B3B3B3;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.library .library__button .fa {
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+}
+
+.section-playlist {
+    align-items: flex-start;
+    background-color: #242424;
+    border-radius: 10px;
+    color: #B3B3B3;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 8px 0px;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 14px;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.section-playlist__content .section-playlist__button {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    color: #000000;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: none;
+    width: 113px;
+}
+
+.sidebar .cookies {
+    font-family: "DM Sans", sans-serif;
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+    width: 170px;
+}
