@@ -16,8 +16,10 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/variaveis.css">
         <link rel="stylesheet" href="css/styles.css">
-        <title>Spotify - Imersão Front End Alura</title>
+        <link rel="stylesheet" href="css/main-content.css">
+        <title>Spotify - Web Player</title>
     </head>
     <body>
         <div class="sidebar">
@@ -73,5 +75,38 @@
                 </div>
             </div>
         </div>
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img
+                                src="/assets/icons/small-left.png"
+                                alt="Seta esquerda"
+                            />
+                        </button>
+                        <button class="arrow-right">
+                            <img
+                                src="/assets/icons/small-right.png"
+                                alt="Seta direita"
+                            />
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="/assets/icons/search.png" alt="">
+                        <input
+                            id="search-input"
+                            type="text"
+                            maxlength="800"
+                            placeholder="O que você quer ouvir?"
+                        />
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+            </div>
+        </main>
     </body>
 </html>
